@@ -26,6 +26,9 @@ sudo apt -y install software-properties-common
     echo "error : We couldnt install some package's from source , maybe you should build them from source .."
    
  fi
+ #instalar Wallpaper y fuentes
+ 
+ #instalar Akava tema
  git clone https://github.com/Akava-Design/Akava-Colors
  cd Akava-Colors
  cp Akava.colors ~/.local/share/color-schemes/
@@ -43,8 +46,7 @@ mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
 sudo make install
-kwin_x11 --replace &
 latte-dock
 echo "Finalizado , presiona Ctrl + c para continuar "
-
+kwin_x11 --replace &
 sudo pkill -KILL -u $USER
