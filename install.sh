@@ -32,11 +32,11 @@ sudo apt -y install software-properties-common
  git clone https://github.com/Akava-Design/Akava-Colors
  cd Akava-Colors
  cp Akava.colors ~/.local/share/color-schemes/
- rm -r ~/Akava-Colors 
+ sudo rm -r ~/Akava-Colors 
  git clone https://github.com/Akava-Design/Akava-Kv
  cd Akava-Kv
- cp Akava-kv ~/.config/Kvantum/
-  rm -r ~/Akava-Kv 
+ cp -r Akava-Kv ~/.config/Kvantum/
+  sudo rm -r ~/Akava-Kv 
  git clone https://github.com/Akava-Design/Akava-Konsole
  cd Akava-Konsole
  cp Akava.colorscheme ~/.local/share/konsole
