@@ -38,4 +38,3 @@ Cursor : Pear Dark
 SDDM : ittu
 Colors : Akava(repo)
 Kvantum : Akava-kv
- 
