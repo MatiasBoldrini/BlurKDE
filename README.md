@@ -1,5 +1,5 @@
 # BlurKDE
-Script to setup kde with blur
+Script to setup kde with blur, IG : @the_linux_boy ; Telegram : ShadowFighter99
 
 ![](Images/Captura_de_pantalla_11-03_1609.png)
 
