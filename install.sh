@@ -1,7 +1,7 @@
 #!/bin/bash
 echo " Bienvenido a mi instalador de KDE!"
 echo "El instalador esta hecho especificamente para arch , ubuntu y derivados"
-echo "Si estas usando Fedora u otra distro , Puedes CAncelar el instalador ahora , o intentar instalarlo (Solo para Fedora)"
+echo "Si estas usando Fedora u otra distro , Puedes Cancelar el instalador ahora , o intentar instalarlo (Solo para Fedora)"
   sleep 5
   YUM_CMD=$(which yum)
   APT_GET_CMD=$(which apt-get)
@@ -46,7 +46,9 @@ mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
 sudo make install
-latte-dock
+echo "#############################################"
 echo "Finalizado , presiona Ctrl + c para continuar "
+echo "#############################################"
+latte-dock
 kwin_x11 --replace &
 sudo pkill -KILL -u $USER
