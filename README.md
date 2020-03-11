@@ -11,3 +11,6 @@ sudo apt -y install git; git clone https://github.com/ShadowFighter99/BlurKDE.gi
 sudo dnf install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
 # Arch : 
 sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
+###########################
+# PLasma
+Install inline battery , chili clock , minimal menu/plasma launchpad, global menu , active windows control, present windows button 
