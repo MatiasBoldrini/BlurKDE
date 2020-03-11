@@ -14,3 +14,8 @@ sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE
 # #########################################################################################################################
 # Plasma
 Install inline battery , chili clock , minimal menu/plasma launchpad, global menu , active windows control, present windows button 
+# Opacity:
+40 in window decoration
+60 , 50 in Kvantum
+Fuerza Desenfoque : 12
+Fuerza Ruido : 2
