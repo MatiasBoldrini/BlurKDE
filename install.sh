@@ -1,5 +1,6 @@
 #!/bin/bash
 echo " Bienvenido a mi instalador de KDE!"
+sleep 1
 echo "El instalador esta hecho especificamente para arch , ubuntu y derivados"
 echo "Si estas usando Fedora u otra distro , Puedes Cancelar el instalador ahora , o intentar instalarlo (Solo para Fedora)"
   sleep 5
