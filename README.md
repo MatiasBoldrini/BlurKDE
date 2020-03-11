@@ -26,15 +26,25 @@ Install inline battery , chili clock , minimal menu/plasma launchpad, global men
 60 , 50 in Kvantum (Akava-Kv);
 Fuerza Desenfoque : 12;
 Fuerza Ruido : 2;
-#Setup
+# Setup
 Fonts : SFProdisplay(repo)
+
 TerminalFont : Meslologs (repo)
+
 icons: Qogir-dark
+
 TerminalTheme : Powerlevel10k
+
 WindowDeco: BreezeBlur(Repo)
+
 GlobalTheme : Pear Dark
+
 LookandFeel : McMojave
+
 Cursor : Pear Dark
+
 SDDM : ittu
+
 Colors : Akava(repo)
+
 Kvantum : Akava-kv
