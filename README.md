@@ -14,9 +14,12 @@ sudo dnf install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ;
 # Arch : 
 sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
 # Terminal
- sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
- git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+ 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
 sudo nano .zshrc
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 # #########################################################################################################################
 # Plasma
