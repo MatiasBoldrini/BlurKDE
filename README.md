@@ -51,3 +51,7 @@ SDDM : ittu
 Colors : Akava(repo)
 
 Kvantum : Akava-kv
+
+# Notas
+Las carpetas "Akava , en ~, pueden ser borradas"
+El script solo instala el repo de Kvantum, Los temas "Akava-design" e instala y compila la decoración de ventanas "BrisaBlur" 
