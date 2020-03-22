@@ -25,8 +25,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Plasma
 Install inline battery , chili clock , minimal menu/plasma launchpad, global menu , active windows control, present windows button 
 # Opacity:
-40 in window decoration;
-60 , 50 in Kvantum (Akava-Kv);
+45 in window decoration;
+55 , 50 in Kvantum (Akava-Kv);
 Fuerza Desenfoque : 12;
 Fuerza Ruido : 2;
 # Setup
@@ -34,7 +34,7 @@ Fonts : SFProdisplay(repo)
 
 TerminalFont : Meslologs (repo)
 
-icons: Qogir-dark
+icons: Qogir-dark || Vimix doder dark
 
 TerminalTheme : Powerlevel10k
 
@@ -51,6 +51,10 @@ SDDM : ittu
 Colors : Akava(repo)
 
 Kvantum : Akava-kv
+
+Windows Effects: Yet another magic lamp : 150ms, shape quad.
+
+Conky: Adele no rings
 
 # Notas
 Las carpetas "Akava , en ~, pueden ser borradas"
