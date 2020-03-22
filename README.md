@@ -59,8 +59,7 @@ Kvantum : Akava-kv
 
 Windows Effects: Yet another magic lamp : 150ms, shape quad.
 
-Conky: Adele no rings
+Conky: Adele no rings : https://drive.google.com/file/d/0B0eO_d_3xTouN0tyR0E5MXB0YTA/view
 
 # Notas
 Las carpetas "Akava , en ~, pueden ser borradas"
-El script solo instala el repo de Kvantum, Los temas "Akava-design" e instala y compila la decoración de ventanas "BrisaBlur" 
