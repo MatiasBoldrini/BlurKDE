@@ -36,12 +36,14 @@ sudo pacman -S cmake extra-cmake-modules kwin
  #instalar Wallpaper y fuentes
 wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb ; https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
  #Instalacion de Conky [BETA]
+ echo "Instalando Conky"
  sudo apt -y install conky
 sudo apt -y install conky-all
 sudo apt -y install conky-themes
 sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
 sudo apt -f install
 ####INstalacion de conky
+echo " Instalando y compilando Yet another magic lamp"
 git clone https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git
 cd kwin-effects-yet-another-magic-lamp
 mkdir build && cd build
