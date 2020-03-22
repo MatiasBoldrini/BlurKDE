@@ -1,11 +1,11 @@
 # BlurKDE
-Script to setup kde with blur, IG : @the_linux_boy ; Telegram : ShadowFighter99
+Script to setup kde with blur, IG : @the_linux_boy ; Telegram : ShadowFighter99 ; Video tuto : https://www.youtube.com/watch?v=taSNrgn8_AY ; Seguí estas instrucciones, están más actualizadas que el video.
 
 ![](Images/Captura_de_pantalla_11-03_1609.png)
 
 ![](Images/Captura_de_pantalla_11-03_1624.png)
 
-![](https://www.youtube.com/watch?v=taSNrgn8_AY)
+
 
 # Debian:
 sudo apt -y install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
