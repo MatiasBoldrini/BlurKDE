@@ -43,16 +43,20 @@ sudo apt -y install conky-themes
 sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
 sudo apt -f install
 ####INstalacion de conky
+ cd
  git clone https://github.com/Akava-Design/Akava-Colors
  cd Akava-Colors
  cp Akava.colors ~/.local/share/color-schemes/ 
+ cd
  git clone https://github.com/Akava-Design/Akava-Kv
  cd Akava-Kv
  cp -r Akava-Kv ~/.config/Kvantum/ 
+ cd
  git clone https://github.com/Akava-Design/Akava-Konsole
  cd Akava-Konsole
  cp Akava.colorscheme ~/.local/share/konsole
 echo " Instalando y compilando Yet another magic lamp"
+cd
 git clone https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git
 cd kwin-effects-yet-another-magic-lamp
 mkdir build && cd build
@@ -61,7 +65,7 @@ cmake ..
     -DCMAKE_INSTALL_PREFIX=/usr
 make
 sudo make install
-
+cd
  git clone https://github.com/alex47/BreezeBlurred
 cd BreezeBlurred
 mkdir build
