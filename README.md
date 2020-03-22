@@ -15,6 +15,9 @@ sudo apt -y install git; git clone https://github.com/ShadowFighter99/BlurKDE.gi
 sudo dnf install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
 # Arch : 
 sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
+# Conky : 
+https://drive.google.com/file/d/0B0eO_d_3xTouN0tyR0E5MXB0YTA/view
+
 # Terminal
  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
  
