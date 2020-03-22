@@ -1,7 +1,7 @@
 # BlurKDE
 Script to setup kde with blur, IG : @the_linux_boy ; Telegram : ShadowFighter99 ; Video tuto : https://www.youtube.com/watch?v=taSNrgn8_AY ; Seguí estas instrucciones, están más actualizadas que el video.
 
-![](Captura_de_pantalla_22-03_1706.png)
+![](Images/Captura_de_pantalla_22-03_1706.png)
 
 ![](Images/Captura_de_pantalla_22-03_1705.png)
 
