@@ -18,11 +18,19 @@ echo "Si estas usando Fedora u otra distro , Puedes Cancelar el instalador ahora
  elif [[ ! -z $APT_GET_CMD ]]; then
 sudo apt -y install software-properties-common
  	sudo add-apt-repository -y  ppa:papirus/papirus
-sudo apt install cmake extra-cmake-modules kwin-dev 
-   sudo apt install libkf5config-dev libkf5configwidgets-dev libkf5coreaddons-dev 
-  sudo apt install libkf5windowsystem-dev qtbase5-dev
+sudo apt -y install cmake extra-cmake-modules kwin-dev 
+   sudo apt -y install libkf5config-dev libkf5configwidgets-dev libkf5coreaddons-dev 
+  sudo apt -y install libkf5windowsystem-dev qtbase5-dev
     sudo apt -y install qt5-style-kvantum qt5-style-kvantum-themes latte-dock zsh curl 
     sudo apt -y install git g++ extra-cmake-modules cmake gettext libkf5config-dev libkdecorations2-dev libqt5x11extras5-dev qtdeclarative5-dev libkf5guiaddons-dev libkf5configwidgets-dev libkf5windowsystem-dev libkf5coreaddons-dev libfftw3-dev
+ #Instalacion de Conky [BETA]
+ echo "Instalando Conky"
+ sudo apt -y install conky
+sudo apt -y install conky-all
+sudo apt -y install conky-themes
+sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
+sudo apt -f install
+####INstalacion de conky
 
  elif [[ ! -z $PACMAN_CMD ]]; then
     sudo pacman -S kdecoration qt5-declarative qt5-x11extras kcoreaddons kguiaddons kconfigwidgets kwindowsystem fftw cmake extra-cmake-modules
@@ -35,26 +43,19 @@ sudo pacman -S cmake extra-cmake-modules kwin
  fi
  #instalar Wallpaper y fuentes
 wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb ; https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
- #Instalacion de Conky [BETA]
- echo "Instalando Conky"
- sudo apt -y install conky
-sudo apt -y install conky-all
-sudo apt -y install conky-themes
-sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
-sudo apt -f install
-####INstalacion de conky
+
  cd
  git clone https://github.com/Akava-Design/Akava-Colors
- cd Akava-Colors
- cp Akava.colors ~/.local/share/color-schemes/ 
+ #cd Akava-Colors
+ cp $HOME/Akava-Colors/Akava.colors ~/.local/share/color-schemes/ 
  cd
  git clone https://github.com/Akava-Design/Akava-Kv
- cd Akava-Kv
- cp -r Akava-Kv ~/.config/Kvantum/ 
+ #cd Akava-Kv
+ cp -r $HOME/Akava-Kv/Akava-Kv ~/.config/Kvantum/ 
  cd
  git clone https://github.com/Akava-Design/Akava-Konsole
- cd Akava-Konsole
- cp Akava.colorscheme ~/.local/share/konsole
+ #cd Akava-Konsole
+ cp $HOME/Akava-Konsole/Akava.colorscheme ~/.local/share/konsole
 echo " Instalando y compilando Yet another magic lamp"
 cd
 git clone https://github.com/zzag/kwin-effects-yet-another-magic-lamp.git
