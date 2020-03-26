@@ -9,9 +9,9 @@ Script to setup kde with blur, IG : @the_linux_boy ; Telegram : ShadowFighter99 
 
 ![](Images/Captura_de_pantalla_22-03_1651.png)
 
-# Debian:
+# Debian/Ubuntu:
 sudo apt -y install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
-# Fedora(beta):
+# Fedora/Red hat based:
 sudo dnf install git; git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
 # Arch : 
 sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE.git ; cd BlurKDE ; sudo chmod +x install.sh; ./install.sh
