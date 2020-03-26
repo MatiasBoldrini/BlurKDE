@@ -62,4 +62,4 @@ Windows Effects: Yet another magic lamp : 150ms, shape quad.
 Conky: Adele no rings : https://drive.google.com/file/d/0B0eO_d_3xTouN0tyR0E5MXB0YTA/view
 
 # Notas
-Las carpetas "Akava , en ~, pueden ser borradas"
+Las carpetas "Akava , en ~, pueden ser borradas", Los wallpapers estan en /images/Wallpapers, si , los podes robar sin descargar el script.
