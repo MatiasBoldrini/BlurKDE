@@ -38,7 +38,7 @@ sudo pacman -S cmake extra-cmake-modules kwin
 
     sudo pacman -S qt5-style-kvantum qt5-style-kvantum-themes latte-dock zsh curl
  else
-    echo "error : We couldnt install some package's from source , maybe you should build them from source .."
+    echo "Si estas viendo esto, es porque las dependencias q necesitas no estan en los repos"
    
  fi
  #instalar Wallpaper y fuentes
