@@ -15,6 +15,7 @@ echo "Si estas usando Fedora u otra distro , Puedes Cancelar el instalador ahora
  sudo dnf install cmake extra-cmake-modules kf5-kconfig-devel
    sudo dnf install   kf5-kcoreaddons-devel kf5-kwindowsystem-devel kwin-devel 
    sudo dnf install   qt5-qtbase-devel
+
  elif [[ ! -z $APT_GET_CMD ]]; then
 sudo apt -y install software-properties-common
  	sudo add-apt-repository -y  ppa:papirus/papirus
@@ -31,7 +32,7 @@ sudo apt -y install conky-themes
 sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
 sudo apt -f install
 ####INstalacion de conky
-
+wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb ; https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
  elif [[ ! -z $PACMAN_CMD ]]; then
     sudo pacman -S kdecoration qt5-declarative qt5-x11extras kcoreaddons kguiaddons kconfigwidgets kwindowsystem fftw cmake extra-cmake-modules
 sudo pacman -S cmake extra-cmake-modules kwin
@@ -42,7 +43,7 @@ sudo pacman -S cmake extra-cmake-modules kwin
    
  fi
  #instalar Wallpaper y fuentes
-wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb ; https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
+
 
  cd
  git clone https://github.com/Akava-Design/Akava-Colors
