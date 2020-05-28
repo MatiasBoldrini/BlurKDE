@@ -18,7 +18,10 @@ sudo pacman -S install git ;git clone https://github.com/ShadowFighter99/BlurKDE
 # Conky : 
 https://drive.google.com/file/d/0B0eO_d_3xTouN0tyR0E5MXB0YTA/view
 
-# Terminal
+# Terminal 
+**Antes de instalar, usar la fuente "MesloLogs" del repo para la terminal**
+sudo apt install zsh #(Ubuntu)
+
  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
  
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
